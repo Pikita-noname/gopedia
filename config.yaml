@@ -1,0 +1,121 @@
+baseURL: "https://gopedia.ru/"
+title: "Gopedia: современный учебник по Go — от основ до продвинутого уровня"
+pagination:
+  pagerSize: 5
+theme: PaperMod
+
+defaultContentLanguage: "ru"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: современный учебник по Go - подробный гайд и примеры кода
+  description: "ExampleSite description"
+  keywords: [Учебник, Study, Golang, StudyBook]
+  author: Davidov Nikita
+  
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "2 January, 2006"
+  defaultTheme: auto
+
+  ShowReadingTime: true
+  # ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  # profile-mode
+  profileMode:
+    enabled: true
+    title: Gopedia - современный ученбик Go
+    subtitle: Всё, что нужно, чтобы начать программировать на Go
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI0ChoEmaRXpoe8_TrXslmzRuezJ_fOA8ZdA&s"
+    imageWidth: 240
+    imageHeight: 240
+    imageTitle: my image
+    buttons:
+      - name: Учебник
+        url: study
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Gopedia"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/"
+
+  analytics:
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Внести правки" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: github
+      name: github
+      url: https://github.com/
+      weight: 30
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+taxonomies:
+  tag: tags
