@@ -1,5 +1,5 @@
 baseURL: "https://gopedia.ru/"
-title: "Gopedia: современный учебник по Go — от основ до продвинутого уровня"
+title: "gopedia: современный учебник по Go — от основ до продвинутого уровня"
 pagination:
   pagerSize: 5
 theme: PaperMod
@@ -43,12 +43,12 @@ params:
   # profile-mode
   profileMode:
     enabled: true
-    title: Gopedia - современный ученбик Go
+    title: современный ученбик Go
     subtitle: Всё, что нужно, чтобы начать программировать на Go
-    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI0ChoEmaRXpoe8_TrXslmzRuezJ_fOA8ZdA&s"
+    imageUrl: "/img/gopedia_logo.svg"
     imageWidth: 240
     imageHeight: 240
-    imageTitle: my image
+    imageTitle: gopedia logo
     buttons:
       - name: Учебник
         url: study
@@ -56,15 +56,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/img/favicon.ico"
+    favicon16x16: "/img/favicon-16x16.png"
+    favicon32x32: "/img/favicon-32x32.png"
+    apple_touch_icon: "/img/apple-touch-icon.png"
+    safari_pinned_tab: "/img/favicon.ico"
 
   label:
-    text: "Gopedia"
-    icon: /apple-touch-icon.png
+    text: " "
+    icon: ""
     iconHeight: 35
 
   socialIcons:
