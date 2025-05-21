@@ -69,7 +69,7 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/Pikita-noname/gopedia/"
 
   analytics:
     yandex:
@@ -81,7 +81,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/Pikita-noname/gopedia/content"
     Text: "Внести правки" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -99,12 +99,12 @@ params:
 menu:
   main:
     - identifier: tags
-      name: tags
+      name: Тэги
       url: /tags/
       weight: 20
     - identifier: github
       name: github
-      url: https://github.com/
+      url: https://github.com/Pikita-noname/gopedia
       weight: 30
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
