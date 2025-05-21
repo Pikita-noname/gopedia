@@ -43,12 +43,12 @@ params:
   # profile-mode
   profileMode:
     enabled: true
-    title: современный ученбик Go
+    title: go pedia - современный ученбик Go
     subtitle: Всё, что нужно, чтобы начать программировать на Go
-    imageUrl: "/img/gopedia_logo.svg"
+    imageUrl: "img/book_icon.png"
     imageWidth: 240
     imageHeight: 240
-    imageTitle: gopedia logo
+    imageTitle: my image
     buttons:
       - name: Учебник
         url: study
