@@ -18,7 +18,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: современный учебник по Go - подробный гайд и примеры кода
-  description: "ExampleSite description"
+  description: "Современный учебник по Go, Golang, курсы, гайд, примеры кода"
   keywords: [Учебник, Study, Golang, StudyBook]
   author: Davidov Nikita
   
