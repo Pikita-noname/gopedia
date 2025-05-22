@@ -3,7 +3,7 @@ name: Deploy Hugo site to Yandex Object Storage
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
