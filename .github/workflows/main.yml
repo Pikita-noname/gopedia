@@ -1,0 +1,44 @@
+name: Deploy Hugo site to Yandex Object Storage
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.147.0'
+
+    - name: Build site
+      run: hugo --minify --baseURL="https://gopedia.ru/"
+
+    - name: Install rclone
+      run: |
+        curl https://rclone.org/install.sh | sudo bash
+
+    - name: Setup rclone config
+      run: |
+        mkdir -p ~/.config/rclone
+        echo "[yandex]" > ~/.config/rclone/rclone.conf
+        echo "type = s3" >> ~/.config/rclone/rclone.conf
+        echo "provider = Other" >> ~/.config/rclone/rclone.conf
+        echo "access_key_id = ${{ secrets.RCLONE_ACCESS_KEY_ID }}" >> ~/.config/rclone/rclone.conf
+        echo "secret_access_key = ${{ secrets.RCLONE_SECRET_ACCESS_KEY }}" >> ~/.config/rclone/rclone.conf
+        echo "endpoint = ${{ secrets.RCLONE_ENDPOINT }}" >> ~/.config/rclone/rclone.conf
+        echo "location_constraint = ru-central1" >> ~/.config/rclone/rclone.conf
+        echo "acl = public-read" >> ~/.config/rclone/rclone.conf
+        echo "no_check_bucket = true" >> ~/.config/rclone/rclone.conf
+
+    - name: Deploy to Yandex Object Storage
+      run: |
+        rclone sync ./public yandex:gopedia.ru \
+          --progress \
