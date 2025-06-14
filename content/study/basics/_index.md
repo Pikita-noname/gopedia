@@ -1,5 +1,5 @@
 ---
-title: "Раздел 2: Основы Go"
+title: "Раздел 2: Основы"
 date: 2025-05-30
 weight: 10
 draft: false
