@@ -1,8 +1,10 @@
 ---
 
 title: "2.3 🔀 Управляющие структуры"
+description: "Управляющие структуры Go: if/else, for loops, switch/case, defer. Примеры и практическое использование."
+keywords: ["if else golang", "циклы go for", "switch case go", "defer golang"]
 date: 2025-05-30
-weight: 13
+weight: 23
 draft: false
 ------------
 

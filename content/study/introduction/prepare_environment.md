@@ -1,6 +1,8 @@
 ---
 title: "1.2 Установка Go и настройка окружения"
-weight: 2 
+description: "Настройка среды разработки Go: VS Code, GoLand, vim. Установка расширений, настройка отладчика, первые шаги."
+keywords: ["среда разработки go", "vs code golang", "goland ide", "настройка golang"]
+weight: 15 
 date: 2025-05-22
 draft: false
 ShowPostNavLinks: true

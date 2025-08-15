@@ -1,7 +1,9 @@
 ---
 title: "🍎 Установка Go на macOS"
+description: "Установка Go/Golang на macOS. Использование Homebrew, официального installer. Настройка среды разработки на Mac."
+keywords: ["установка go mac", "golang macos", "homebrew golang", "go mac настройка"]
 date: 2024-01-01T12:05:00+03:00
-weight: 3
+weight: 13
 draft: false
 hidden: true
 ---

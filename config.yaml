@@ -17,9 +17,26 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: современный учебник по Go - подробный гайд и примеры кода
-  description: "Современный учебник по Go, Golang, курсы, гайд, примеры кода"
-  keywords: [Учебник, Study, Golang, StudyBook]
+  title: "Gopedia - Полный учебник Go/Golang от основ до продакшена | Курсы программирования 2025"
+  description: "Современный учебник Golang на русском языке. Изучайте Go с нуля: горутины, каналы, HTTP серверы, тестирование, Docker. Примеры кода и практические проекты."
+  keywords: [
+    # Основные
+    "Go", "Golang", "учебник golang", "курсы go", "программирование go",
+    
+    # Начинающие  
+    "go с нуля", "изучение golang", "go для начинающих", "golang tutorial русский",
+    
+    # Технические
+    "горутины golang", "каналы go", "http сервер golang", "json golang", 
+    "тестирование go", "concurrency golang", "интерфейсы go",
+    
+    # Продвинутые
+    "микросервисы golang", "docker golang", "rest api golang", 
+    "go generics", "производительность golang", "best practices go",
+    
+    # 2025 тренды
+    "golang 2025", "cloud native go", "ai golang", "go performance optimization"
+  ]
   author: Davidov Nikita
   
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -100,12 +117,16 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: tags
-      name: Тэги
-      url: /tags/
+    - identifier: faq
+      name: FAQ
+      url: /study/faq/
+      weight: 10
+    - identifier: glossary
+      name: Глоссарий
+      url: /study/glossary/
       weight: 20
     - identifier: github
-      name: github
+      name: GitHub
       url: https://github.com/Pikita-noname/gopedia
       weight: 30
 

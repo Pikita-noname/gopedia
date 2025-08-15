@@ -1,7 +1,9 @@
 ---
 title: "🐧 Установка Go на Linux"
+description: "Пошаговое руководство по установке Go/Golang на Linux Ubuntu, CentOS, Debian. Настройка GOPATH, GOROOT, проверка установки."
+keywords: ["установка go linux", "golang ubuntu", "go centos", "настройка gopath"]
 date: 2024-01-01T12:03:00+03:00
-weight: 1
+weight: 12
 draft: false
 hidden: true
 ---

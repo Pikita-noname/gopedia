@@ -1,8 +1,10 @@
 ---
 
-title: "4.3 ❗ Ошибки и исключения"
+title: "5.3 ❗ Ошибки и исключения"
+description: "Обработка ошибок в Go: error интерфейс, создание кастомных ошибок, panic/recover, лучшие практики."
+keywords: ["ошибки golang", "error handling go", "panic recover golang", "обработка ошибок go"]
 date: 2025-07-02
-weight: 43
+weight: 53
 draft: false
 ------------
 

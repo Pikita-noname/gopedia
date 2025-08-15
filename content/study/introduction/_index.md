@@ -1,7 +1,9 @@
 ---
-title: "Раздел 1: Введение"
+title: "Раздел 1: Введение в Go"
+description: "Введение в язык программирования Go/Golang: что такое Go, установка на Linux/Windows/Mac, первая программа."
+keywords: ["введение в golang", "установка go", "что такое golang", "первая программа go"]
 date: 2025-05-22
-weight: 2
+weight: 10
 draft: false
 ---
 

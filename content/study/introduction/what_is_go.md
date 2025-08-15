@@ -1,6 +1,8 @@
 ---
 title: "1.1 Что такое Go: История и цели языка"
-weight: 1 
+description: "Основы языка Go/Golang: история создания, цели, преимущества. Почему Google создал Go и где он используется."
+keywords: ["что такое golang", "история go", "google go язык", "преимущества golang"]
+weight: 11 
 date: 2025-05-21
 draft: false
 ---

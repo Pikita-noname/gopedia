@@ -1,7 +1,9 @@
 ---
 title: "🪟 Установка Go на Windows"
+description: "Установка Go/Golang на Windows 10/11. Скачивание installer, настройка PATH, проверка установки через командную строку."
+keywords: ["установка go windows", "golang windows 10", "go installer windows", "настройка go path"]
 date: 2024-01-01T12:03:00+03:00
-weight: 1
+weight: 14
 draft: false
 hidden: true
 ---

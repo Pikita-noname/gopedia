@@ -1,6 +1,8 @@
 ---
 title: "1.3 Твоя первая программа"
-weight: 3 
+description: "Первая программа на Go: Hello World, структура Go программы, компиляция и запуск. Понимание package main и функции main."
+keywords: ["первая программа go", "hello world golang", "go run build", "package main golang"]
+weight: 16 
 date: 2025-05-22
 draft: false
 ShowPostNavLinks: true
