@@ -47,7 +47,7 @@ params:
   # ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -140,5 +140,5 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
 taxonomies:
-  tag: tags
